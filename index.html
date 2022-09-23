@@ -10,79 +10,143 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<title>Integrador Codo a codo</title>
 </head>
-<body>	
-		<!-- Image and text -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	<div class="logo">
-  <a class="navbar-brand" href="#">
-  	<img src="assets/img/codoacodo.png" width="80" height="60" class="d-inline-block align-top" alt=""> 
-    <p class="texto">Conf Bs As</p>
- </a>
-  </div>
-
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>  
-  <div class="navegacion">
-   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+<body>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid espacios">
+    <a class="navbar-brand" href="#">
+      <img src="assets/img/codoacodo.png" width="80" height="60" alt="">Conf Bs. As.</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav ms-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#"><font color="#ffffff">La Conferencia</font></a>
+        <a class="nav-link" href="#principal"><font color="#ffffff">La Conferencia</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Los oradores</a>
+        <a class="nav-link" href="#oradores">Los oradores</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">El lugar y la fecha</a>
+        <a class="nav-link" href="#ubicacion">El lugar y la fecha</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Conviértete en orador</a>
+        <a class="nav-link" href="#orador">Conviértete en orador</a>
       </li>
       <li class="nav-item">
-      	<a class="nav-link" href="#"><font color="#008000">Comprar tickets</font></a>
+        <a class="nav-link" href="#comprar"><font color="#008000">Comprar tickets</font></a>
       </li>
     </ul>
+    </div>
   </div>
-</div>
 </nav>
-<div class="card bg-dark text-white">
-  <img class="card-img" src="assets/img/hawaii.jpg" alt="Card image">
-  <div class="card-img-overlay">
-    <h5 class="card-title">Conf Bs As</h5>
-    <p class="card-text">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los operadores de primer nivel que tenemos para ti. Te esperamos!</p>
-    <button type="button" class="btn btn-transparente">Quiero ser orador</button>
+     <article>
+      <div class="contenedor-principal" id="principal">
+    <h5 style="color: white;">Conf Bs As</h5>
+    <p style="color: white;">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los operadores de primer nivel que tenemos para ti. Te esperamos!</p>
+    <div class="botones">
+      <button type="button" class="btn btn-transparente">Quiero ser orador</button>
     <button type="button" class="btn btn-success">Comprar tickets</button>
-  </div>
-</div>
-<div class="card" style="width: 100%;">
-	<div class="card-body">
-	<h6 class="card-subtitle mb-2 text-muted">Conoce a a los</h6>
-    <h5 class="card-title">Oradores</h5>    
-<div class="card-group">
-  <div class="card">
-    <img class="card-img-top" src="assets/img/steve.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Steve Jobs</h5>
-      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat quaerat molestiae, exercitationem totam consequatur velit vitae repudiandae suscipit nulla non repellendus. Numquam tempore atque, ratione magnam neque. Voluptatem, atque illum?</p>
     </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="assets/img/bill.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Bill Gates</h5>
-      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, dolores perferendis sequi praesentium. Numquam accusantium nemo iste magnam cupiditate a modi dolorem atque sed dicta delectus, sunt hic tenetur illum.</p>
     </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="assets/img/ada.jpeg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Ada Lovelace</h5>
-      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Fugiat delectus exercitationem doloribus error aut, commodi ea, harum hic amet sapiente corrupti repellendus eum officia porro beatae fuga. Blanditiis, sed, reprehenderit.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
-</div>
-</div>
+     </article>
+    <section>
+      <p>CONOCE A LOS</p>
+      <h2>ORADORES</h2>
+      <div class="oradores" id="oradores">
+          
+            <div class="cuadrado">
+          <div class="imag">  
+              <img src="assets/img/steve.jpg" alt="" width="100%" height="100%">
+          </div>
+           <div class="texto-ima">  
+            <h5>Bill Gates</h5>
+    <p style="padding: 0px 40px;">Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Atque error architecto blanditiis quos libero ipsam rem est sunt amet aliquid cumque perferendis consequatur, dignissimos?</p>
+          </div>
+           
+
+        </div>
+
+          <div class="cuadrado">
+          <div class="imag">  
+              <img src="assets/img/bill.jpg" alt="" width="100%" height="100%">
+          </div>
+           <div class="texto-ima">  
+            <h5>Bill Gates</h5>
+    <p style="padding: 0px 40px;">Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Atque error architecto blanditiis quos libero ipsam rem est sunt amet aliquid cumque perferendis consequatur, dignissimos?</p>
+          </div>
+           
+
+        </div>
+          <div class="cuadrado">
+          <div class="imag"> 
+              <img src="assets/img/ada.jpeg" alt="" width="100%" height="100%"> 
+          </div>
+           <div class="texto-ima" id="ubicacion">  
+             <h5>Ada Lovelace</h5>
+    <p style="padding: 0px 40px;">Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Atque error architecto blanditiis quos libero ipsam rem est sunt amet aliquid cumque perferendis consequatur,dignissimos?</p>
+          </div>
+          
+        </div>
+          
+      </div>
+      <div class="octubre" id="orador">
+        <div class="foto">
+          <img src="assets/img/honolulu.jpg" alt="" width="100%" height="100%">
+        </div>
+        <div class="texto">
+          <h2 style="margin: 1rem;">Bs As - Octubre</h2>
+             <p style="margin: 1rem;">Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatem deserunt nulla recusandae voluptate fuga temporibus maiores soluta dolore ullam, corrupti officiis nobis tempora rem eligendi labore placeat illo ea!
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero animi quibusdam at harum veniam maiores. Dicta ab, asperiores temporibus non facere, doloribus repellendus vitae. Similique, architecto odit quis nostrum dolor.</p>
+             
+      <button type="button" class="btn btn-transparente" style="margin: 1rem;">Quiero ser orador</button>
+
+        </div>
+      </div>
+
+      <div class="form-ultimo">
+         <p>Convertite en un</p>
+          <h2>ORADOR</h2>
+          <p>Anotate como orador para dar una <a href="#">Charla ignite</a>. Cuentanos de que quieres hablar!</p>
+        <form  class="formu" id="comprar">
+          <input type="text" name="nombre" placeholder="Nombre">
+           <input type="text" name="apellido" placeholder="Apellido"></br></br>
+           <textarea name="mensaje" placeholder="Sobre que quieres hablar"></textarea>
+
+         <p style="text-align: left; margin-left: 8em ;">Recuerda incluir un titulo para la charla.</p>
+         <button>Enviar</button>
+
+        </form>
+
+
+      </div>
+    </section>
+    
 </body>
+<footer>
+   <ul>
+      <li>
+        <a href="#">Preguntas frecuentes</a>
+      </li>
+      <li>
+        <a href="#">Contáctanos</a>
+      </li>
+      <li>
+        <a href="#">Prensa</a>
+      </li>
+      <li>
+        <a href="#">Conferencia</a>
+      </li>
+      <li>
+        <a href="#">Terminos y Condiciones</a>
+      </li>
+      <li>
+        <a href="#">Privacidad</a>
+      </li>
+      <li>
+        <a href="#">Estudiantes</a>
+      </li>
+    </ul>
+
+</footer>
+
 </html>
