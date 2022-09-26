@@ -241,7 +241,8 @@ section {
    overflow: hidden;
    margin: 0;
    padding: .5rem;
-   font-size: 1.9vh;
+  /* font-size: 1.9vh;*/
+  font-size: 0.8em;
    overflow: hidden;
  }
 
@@ -249,4 +250,34 @@ section {
   .cuadrado{
     
   }
+ }
+
+ .oradores .cuadrado .texto-ima a{
+  text-decoration:none;
+    color: white;
+    background-color: darkblue;
+     border-radius: 3px;
+      font-weight: bold;
+
+ }
+
+ .amarillo{
+   color: black !important;
+    background-color: #ffd700 !important;
+
+
+ }
+
+  .gris{
+
+    background-color: grey !important;
+
+
+ }
+
+  .rojo{
+ 
+    background-color: red !important;
+
+
  }
